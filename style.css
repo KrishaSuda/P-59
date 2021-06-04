@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    scroll-behavior: smooth
+}
+
+#Welcome {
+    position: absolute;
+    height: 400px;
+    color: white;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(#4cc9f0, #03045e 100%);
+    width: 100%;
+    z-index: 5;
+}
+
+.menu {
+    list-style: none;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.lists {
+    float: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.lists:hover {
+    color: grey;
+}
+
+.GamingPoster {
+    width: 400;
+    height: 200;
+}
+
+
+h1 {
+    color: #edf6f9
+}
+
+#Bio {
+    padding-top: 425px;
+    text-align: center;
+}
+
+#About {
+    color: #023e8a;
+}
+
+.line {
+    background-color: #023e8a;
+    width: 80px;
+    height: 4px;
+    margin: 8px auto;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #00b4d8;
+    text-shadow: 2px 2px #023e8a
+}
+
+.GB:link,
+.GB:visited {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.GB:hover,
+.GB:active {
+    background-color: #023e8a;
+}
+
+.Alink:link,
+.Alink:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Alink:hover,
+.Alink:active {
+    color: #023e8a;
+}
